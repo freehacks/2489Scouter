@@ -15,36 +15,36 @@ import android.widget.TextView;
 
 public class NotSoComplicatedArrayAdapter extends ArrayAdapter<String> {
 
-	private final Context context;
-	private final String[] allTeams;
+    private final Context context;
+    private final String[] allTeams;
 
-	public NotSoComplicatedArrayAdapter(Context context, int resource,
-			String[] allTeams) {
-		super(context, resource, allTeams);
+    public NotSoComplicatedArrayAdapter(Context context, int resource,
+                                        String[] allTeams) {
+        super(context, resource, allTeams);
 
-		// TODO Auto-generated constructor stub
-		
-		this.context = context;
-		this.allTeams = allTeams;
+        // TODO Auto-generated constructor stub
 
-	}
-	
-	@Override
-	public View getView(int position, View convertView, ViewGroup parent) {
-		boolean team = false;
-		
-		//The boolean team is used to denote which alliance the team is on.
-		//A value of true means that it is on the red alliance, and it should be
-		//colored red, and false is the other way.
-		
-		LayoutInflater inflater = (LayoutInflater) context
-				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		View rowView = inflater.inflate(R.layout.team_list, null);
-		TextView teamNumber = (TextView) rowView.findViewById(R.id.teamNo);
-		teamNumber.setText(allTeams[position]);
-		
-		return rowView;
-	}
-	
+        this.context = context;
+        this.allTeams = allTeams;
+
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        boolean team = false;
+
+        //The boolean team is used to denote which alliance the team is on.
+        //A value of true means that it is on the red alliance, and it should be
+        //colored red, and false is the other way.
+
+        LayoutInflater inflater = (LayoutInflater) context
+                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View rowView = inflater.inflate(R.layout.team_list, null);
+        TextView teamNumber = (TextView) rowView.findViewById(R.id.teamNo);
+        teamNumber.setText(allTeams[position]);
+
+        return rowView;
+    }
+
 
 }

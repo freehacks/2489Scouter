@@ -82,7 +82,7 @@
       <file leaf-file-name="MatchListing.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/team/insomniacs/MatchListing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1224">
+            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1173">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
@@ -92,29 +92,48 @@
       <file leaf-file-name="NListView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/team/insomniacs/NListView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2669">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3349">
               <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AMatchesFrag.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AMatchesFrag.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/team/insomniacs/AMatchesFrag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4896">
-              <caret line="164" column="54" selection-start-line="164" selection-start-column="54" selection-end-line="164" selection-end-column="54" />
-              <folding />
+            <state vertical-scroll-proportion="-1.3421053" vertical-offset="816" max-vertical-offset="5474">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <element signature="e#2503#2511#0" expanded="true" />
+                <element signature="e#2571#2579#0" expanded="true" />
+                <element signature="e#5598#8105#0" expanded="true" />
+                <element signature="e#7521#7736#0" expanded="true" />
+                <element signature="e#7709#7710#0" expanded="true" />
+                <element signature="e#8094#8095#0" expanded="true" />
+                <element signature="e#8263#8271#0" expanded="true" />
+                <element signature="e#8849#8857#0" expanded="true" />
+                <element signature="e#9467#9475#0" expanded="true" />
+                <element signature="e#10220#10228#0" expanded="true" />
+                <element signature="e#10938#10946#0" expanded="true" />
+                <element signature="e#11450#11458#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputDataActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="InputDataActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/team/insomniacs/InputDataActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.506579" vertical-offset="0" max-vertical-offset="4658">
-              <caret line="288" column="19" selection-start-line="288" selection-start-column="19" selection-end-line="288" selection-end-column="19" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4389" max-vertical-offset="4845">
+              <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3086#6048#0" expanded="true" />
+                <element signature="e#6037#6038#0" expanded="true" />
+                <element signature="e#6116#6117#0" expanded="true" />
+                <element signature="e#6148#6149#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +152,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/team/insomniacs/SplashScreen.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="867">
-              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -599,8 +618,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/team/insomniacs/InputDataActivity.java" />
         <option value="$PROJECT_DIR$/src/com/team/insomniacs/ComplicatedArrayAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/team/insomniacs/InputDataActivity.java" />
       </list>
     </option>
   </component>
@@ -747,6 +766,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RunManager" selected="Android Application.MainActivity">
     <configuration default="false" name="InputDataActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
@@ -1071,7 +1091,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="5219">
           <caret line="86" column="50" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3086#6048#0" expanded="true" />
+            <element signature="e#6037#6038#0" expanded="true" />
+            <element signature="e#6116#6117#0" expanded="true" />
+            <element signature="e#6148#6149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1138,7 +1164,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1054">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3086#6048#0" expanded="true" />
+            <element signature="e#6037#6038#0" expanded="true" />
+            <element signature="e#6116#6117#0" expanded="true" />
+            <element signature="e#6148#6149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1208,8 +1240,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/team/insomniacs/SplashScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="595">
-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="867">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1265,19 +1297,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/team/insomniacs/AMatchesFrag.java">
+    <entry file="file://$PROJECT_DIR$/src/com/team/insomniacs/InputDataActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4896">
-          <caret line="164" column="54" selection-start-line="164" selection-start-column="54" selection-end-line="164" selection-end-column="54" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4389" max-vertical-offset="4845">
+          <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3086#6048#0" expanded="true" />
+            <element signature="e#6037#6038#0" expanded="true" />
+            <element signature="e#6116#6117#0" expanded="true" />
+            <element signature="e#6148#6149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/team/insomniacs/InputDataActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/team/insomniacs/AMatchesFrag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.506579" vertical-offset="0" max-vertical-offset="4658">
-          <caret line="288" column="19" selection-start-line="288" selection-start-column="19" selection-end-line="288" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="-1.3421053" vertical-offset="816" max-vertical-offset="5474">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#2503#2511#0" expanded="true" />
+            <element signature="e#2571#2579#0" expanded="true" />
+            <element signature="e#5598#8105#0" expanded="true" />
+            <element signature="e#7521#7736#0" expanded="true" />
+            <element signature="e#7709#7710#0" expanded="true" />
+            <element signature="e#8094#8095#0" expanded="true" />
+            <element signature="e#8263#8271#0" expanded="true" />
+            <element signature="e#8849#8857#0" expanded="true" />
+            <element signature="e#9467#9475#0" expanded="true" />
+            <element signature="e#10220#10228#0" expanded="true" />
+            <element signature="e#10938#10946#0" expanded="true" />
+            <element signature="e#11450#11458#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
