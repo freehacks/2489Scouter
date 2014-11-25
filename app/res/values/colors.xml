@@ -1,0 +1,5 @@
+<resources>
+    <color name = "red">#FF0000</color>
+    <color name = "blue">#0000FF</color>
+    <color name = "actionBarTabText">#5CBF5C</color>
+</resources>

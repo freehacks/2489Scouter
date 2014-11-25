@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:id="@+id/listLayout"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:name="listLayout"
+    android:padding="6dp" >
+        
+    <TextView
+        android:id="@+id/matchType"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:text = "QF"
+        android:textSize = "34sp" />
+
+    <TextView
+        android:id="@+id/match_number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/matchType"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="Match 1"
+        android:textSize="16sp" />
+       
+       <TextView
+        android:id="@+id/redAlliance"
+        android:layout_toRightOf="@id/matchType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:ellipsize="marquee"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft = "5dp"
+        android:singleLine="true"
+        android:text="Red Teams: 1341, 0134, 0485"
+        android:textSize="12sp" />
+
+
+       
+    <TextView
+        android:id="@+id/blueAlliance"
+        android:layout_width="wrap_content"
+        android:layout_height="26dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/matchType"
+        android:layout_below="@id/redAlliance"
+        android:layout_marginTop="11dip"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_marginLeft = "5dp"
+        android:text="Blue Teams: 1341, 0134, 0485"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/redScore"
+        android:layout_width="wrap_content"
+        android:layout_height="26dip"
+        android:layout_alignBaseline="@+id/redAlliance"
+        android:layout_alignBottom="@+id/redAlliance"
+        android:layout_alignParentRight="true"
+        android:text="Red: 0"
+        android:textColor="@color/red"
+        android:textSize="14sp" />
+    
+        <TextView
+        android:id="@+id/blueScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/blueAlliance"
+        android:layout_alignBottom="@+id/blueAlliance"
+        android:layout_alignParentRight="true"
+        android:text="Blue: 0"
+        android:textColor="@color/blue"
+        android:textSize="14sp" />
+    
+
+</RelativeLayout>
